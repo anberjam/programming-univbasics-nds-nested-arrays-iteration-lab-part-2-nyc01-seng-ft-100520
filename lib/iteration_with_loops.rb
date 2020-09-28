@@ -11,6 +11,7 @@ def find_min_in_nested_arrays(src)
         min_num= src[row][column]
       end 
       mins << min_num
+      column+=1
     end
     row+=1
   end
